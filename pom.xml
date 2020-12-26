@@ -11,6 +11,7 @@
     <build>
         <plugins>
             <!-- `mvn initialize` creates a target/classes/git.properties file -->
+            <!-- see in-depth configuration here: https://github.com/git-commit-id/git-commit-id-maven-plugin/blob/master/maven/docs/using-the-plugin.md -->
             <plugin>
                 <groupId>pl.project13.maven</groupId>
                 <artifactId>git-commit-id-plugin</artifactId>
